@@ -27,7 +27,7 @@ while in a golem transformation :-
 # Credits
 - Programming by yours truly 
 - [Onilink](http://ic.onidev.fr/en/index.html) who helped me with answering a lot of questions on how I'd do this (man also literally made the game)
-- spaghettiinabucket who most if not all the modified sprites for the guns and the dismembered golem as well as helping me if the mod worked online.
+- spaghettiinabucket who did most if not all the modified sprites for the guns and the dismembered golem as well as helping me if the mod worked online.
 > Oh nice hot and sexy.
 Send the files.
 Send magma golem nudes.

@@ -1,0 +1,188 @@
+{
+
+Bullet:
+{
+  // === Beams ===
+  pc_beam_fire:
+  {
+    "fire_5.png" 20 5 0.3
+    "fire_hit_5.png" 13 16 0.2
+
+    255 210 180
+    // damages
+    0 0 0 0  1 0 0 0 0 0  0 0 0  {}
+    // damage blocks
+    0
+    // sound
+    void
+
+    fire_gfx "fire_shoot_9.png" 5 14 0.2
+  }
+
+  pc_beam_fire_laser:
+  {
+    "fire_5.png" 20 5 0.3
+    "fire_hit_5.png" 13 16 0.2
+
+    255 210 180
+    // damages
+    0 0 0 0  1 0 0 0 0 0  0 0 0  {}
+    // damage blocks
+    0
+    // sound
+    void
+
+    fire_gfx "fire_shoot_9.png" 5 14 0.2
+
+    render_on_front
+    afterglow 16 10
+    afterglow_each_iteration
+  }
+
+  // === Bullets ===
+
+  // Basic magic fireball, particle based rendering
+  pc_bullet_magic_fireball:
+  {
+    "placeholder.png" 8 8 0
+    "placeholder.png" 8 8 0
+
+    255 210 160
+    // damages
+    0 0 0 0  1 0 0 0 0 0  0 0 0  {}
+    // damage blocks
+    0
+    // sound
+    void
+
+    size 10
+    render_fireball
+  }
+
+  // Basic fireball used for traps
+  pc_bullet_fireball:
+  {
+    "fireball_3.png" 12 12 0.3
+    "fireball_die_3.png" 15 14 0.3
+
+    255 255 255
+
+    // Physical Damages (pierce, blunt, cut, expode)
+    0 0 0 0
+    // Elemental Damages (fire, ice, rock, thuder, light, shadow)
+    20 0 0 0 0 0
+    // Recul (pourcentage)
+    0 0 0
+    // Suffixes
+    {1.0 Burned 1 15}
+    // damage blocks
+    0
+    // sound
+    void
+  }
+
+  pc_bullet_fireball_hell:
+  {
+    "fireball_hell_3.png" 12 12 0.3
+    "fireball_die_3.png" 15 14 0.3
+
+    255 175 175
+
+    // Physical Damages (pierce, blunt, cut, expode)
+    0 0 0 0
+    // Elemental Damages (fire, ice, rock, thuder, light, shadow)
+    50 0 0 0 0 50
+    // Recul (pourcentage)
+    0 0 0
+    // Suffixes
+    {}
+    // damage blocks
+    0
+    // sound
+    void
+  }
+
+  // === Unique ===
+  pc_bullet_magic_sun:
+  {
+    "sun.png" 70 70 0.2
+    "sun_death_4.png" 94 94 0.2
+    
+    240 210 255
+    // damages
+    0 0 0 0  1 0 0 0 0 0  20 20 0  {}
+    // damage blocks
+    0
+    // sound
+    void
+    
+    size 100
+    
+    //fire_gfx "smoke_5.png" 2 10 0.2
+    
+    next_frame_rotation_angle -90
+    grow_at_start
+    
+    damage_blocks_at_death 50
+    hit_force keen 2 1
+  }
+
+  pc_bullet_magic_meteor:
+  {
+    "meteor_4.png" 195 54 0.2
+    "meteor_death.png" 195 54 0.1
+    
+    240 210 255
+    // damages
+    0 0 0 0  1 0 0 0 0 0  20 20 0  {}
+    // damage blocks
+    0
+    // sound
+    void
+    
+    size 80
+    
+    grow_at_start
+    shrinkv_at_death
+    
+    explosion pc_damager_explosion_grenade 1 1
+  }
+
+  pc_bullet_magmaball:
+  {
+    "magmaball.png" 12 12 0
+    "magmaball.png" 12 12 0
+
+    128 128 0
+
+    // Physical Damages (pierce, blunt, cut, expode)
+    0 0.3 0 0
+    // Elemental Damages (fire, ice, rock, thunder, light, shadow)
+    0.4 0 0.3 0 0 0
+    // Recul (pourcentage)
+    0 0 0
+    // Suffixes
+    {1.0 Burned 1 15}
+    // damage blocks
+    0
+    // sound
+    void
+
+    explosion pc_damager_explosion_magma_ball 1 1
+  }
+  
+
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+

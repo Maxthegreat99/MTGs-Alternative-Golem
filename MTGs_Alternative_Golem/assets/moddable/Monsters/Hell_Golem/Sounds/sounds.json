@@ -1,0 +1,13 @@
+{
+
+"sounds":
+[
+{"name":"attack", "file":"attack.wav", "preload":true},
+{"name":"hurt", "file":"hurt.wav", "preload":true},
+{"name":"die", "file":"die.wav", "preload":true},
+{"name":"beam", "file":"beam.wav", "preload":true},
+{"name":"lava", "file":"lava.wav", "preload":true},
+{"name":"shoot", "file":"shoot.wav", "preload":true}
+]
+
+}

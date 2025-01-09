@@ -1,0 +1,33 @@
+{
+"crop": true,
+"sprites":
+[
+{"name": "spawn", "file": "spawn_16.png", "offset": "middle bottom"},
+{"name": "idle", "file": "idle_10.png", "offset": "44 bottom"},
+{"name": "move", "file": "walk_10.png", "offset": "middle bottom"},
+{"name": "attack", "file": "punch_16.png", "offset": "44 bottom"},
+{"name": "attack_ground", "file": "ground_attack_16.png", "offset": "48 bottom"},
+{"name": "shoot", "file": "shoot_20.png", "offset": "72 bottom"},
+{"name": "ball", "file": "ball_9.png", "offset": "82 25"},
+{"name": "ball1", "file": "ball1_9.png", "offset": "82 25"},
+{"name": "ball2", "file": "ball2_9.png", "offset": "82 25"},
+{"name": "ball3", "file": "ball3_9.png", "offset": "82 25"},
+{"name": "ball4", "file": "ball4_9.png", "offset": "82 25"},
+{"name": "beam", "file": "beam_15.png", "offset": "42 20"},
+{"name": "beam1", "file": "beam1_15.png", "offset": "42 20"},
+{"name": "beam2", "file": "beam2_15.png", "offset": "42 20"},
+{"name": "beam3", "file": "beam3_15.png", "offset": "42 20"},
+{"name": "beam4", "file": "beam4_15.png", "offset": "42 20"},
+{"name": "die", "file": "die_24.png", "offset": "56 bottom"},
+{"name": "hit", "file": "hit_6.png", "offset": "53 bottom"},
+{"name": "fall", "file": "fall_7.png", "offset": "70 95"},
+{"name": "getup", "file": "getup_8.png", "offset": "70 75"},
+{"name": "gfx1", "file": "gfx1_3.png", "offset": "0 64"},
+{"name": "gfx2", "file": "gfx2_5.png", "offset": "28 64"},
+{"name": "gfx3", "file": "gfx3_5.png", "offset": "0 21"},
+{"name": "mid", "file": "mid.png", "offset": "0 11"},
+{"name": "end", "file": "end.png", "offset": "0 11"}
+]
+}
+
+

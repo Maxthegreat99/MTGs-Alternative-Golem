@@ -1,0 +1,79 @@
+
+{
+
+Monster:
+{
+  pc_monster_lava_golem:
+  {
+    "Lava golem"
+    125 90 50 // base stats
+    250
+    10.2
+    7.0 // mass
+    1 // have recoil? 1:true  0:false
+
+    0 0 0 0  0 0 0 0 0 0
+
+    2
+    10 // taux de capture
+    180 // xp
+    30
+
+    drops:
+    {
+      0.05 pc_drop_fire_orb 1 1
+      0.35 pc_drop_lava_heart   1 1
+      1.00 pc_food_truffle_fusion 1 3
+    }
+    damages:
+    {
+      {
+	  //pierce blunt cunt explose // fire ice rock thunder light shadow
+      0 0.62 0 0  0.3 0 0 0 0 0  10 8 0.3  { } // Punch
+      0 0 0 0  0.92 0 0 0 0 0  8 8 0.3  { } //
+      0 0 0 0  1.54 0 0 0 0 0  8 8 0.3  { } // Beam
+      0 0 0 0  0.22 0 0 0 0 0  8 8 0.3  { } // Lava
+      }
+    }
+    suffix:
+    {
+    }
+    suffix_hurt:
+    {
+    }
+    suffix_attack:
+    {
+    }
+    
+    dark_souls 8
+    seals {
+      pc_triggerable_monster_seal2
+      pc_triggerable_monster_seal4
+      pc_triggerable_monster_seal5
+    }
+    
+    loots {
+      // rarity range
+      all {
+        // probability, min, max, table_index
+        0.0200 1 1 pc_chestdrop_runes1
+        0.0300 1 1 pc_chestdrop_gems1
+        0.0090 1 1 pc_chestdrop_swords3
+        0.0090 1 1 pc_chestdrop_swords4
+        0.0020 1 1 pc_chestdrop_swords5
+      }
+    }
+    egg pc_drop_egg_golem_lava
+    preference_table pc_preference_table_golem_lava
+    size 3 4
+    weight heavy
+    
+    use_lua ground_monster "lava_golem.lua"
+    sprites monster_lava_golem "Sprites/sprites.json"
+    sounds  monster_lava_golem "Sounds/sounds.json"
+    thumbnail thumbnail.png
+  }
+}
+
+}
+ 

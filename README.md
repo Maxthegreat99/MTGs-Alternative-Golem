@@ -1,5 +1,5 @@
 # MTGs-Alternative-Golem
-Max stoped replacing vomit based attacks to giving the golem a shoulder massage removing its gun-arm and placing back it again. Boom it can now move it, thats what the mod's about.
+Max stoped replacing vomit based attacks to giving the golem a shoulder massage dis-membering its gun-arm and placing back it again. Boom it can now move it, thats what the mod's about.
 This mod will change the golem's arm attacks and AI, changing the arm to make it rotatable while shooting its magma ball or lazer. It also makes golems glow when theres no light since its not the case in vanilla. Additionally the lazer gun has a "warning beam" which appears while a golem is aiming to shoot the lazer, acts more as a prevention to getting sniped from 20 miles away.
 
 # Gif
